@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* general */
+
+
+
+
+/* utilis */
+
+.dispay-flex {
+    display: flex;
+}
+
+.content-center {
+    justify-content: space-around;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.content-between {
+    justify-content: space-between;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+
+
+
+/* header */
+
+header {
+    height: 90px;
+    width: 100%;
+    background-color: #FF6900;
+    position: fixed;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    ;
+}
+
+.navbar {
+    width: 75%;
+    margin: 0 auto;
+}
+
+div {
+    width: calc(100% / 3);
+}
+
+#logo {
+    height: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-right: 10px;
+}
+
+i {
+    margin-left: 10px;
+}
