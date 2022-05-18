@@ -8,7 +8,9 @@
 /* general */
 
 
-
+.div-bar {
+    width: calc(100% / 3);
+}
 
 /* utilis */
 
@@ -17,7 +19,7 @@
 }
 
 .content-center {
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .items-center {
@@ -42,20 +44,18 @@ header {
     width: 100%;
     background-color: #FF6900;
     position: fixed;
+    z-index: 1;
     color: white;
     font-size: 20px;
     font-weight: 600;
-    ;
+
 }
 
 .navbar {
-    width: 75%;
+    width: 72%;
     margin: 0 auto;
 }
 
-div {
-    width: calc(100% / 3);
-}
 
 #logo {
     height: 40px;
@@ -71,4 +71,82 @@ li {
 
 i {
     margin-left: 10px;
+}
+
+
+/* main */
+
+main {
+    padding: 150px 0;
+}
+
+article {
+    padding: 15px;
+    font-size: large;
+
+}
+
+.relative {
+    position: relative;
+}
+
+img {
+    height: 800px;
+
+}
+
+
+#cuore {
+    font-size: 50px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 15px;
+
+}
+
+#sconto {
+    height: 35px;
+    width: 60px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    font-weight: 700;
+}
+
+#sostenibilita {
+    height: 35px;
+    width: 150px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    left: 65px;
+    bottom: 50px;
+    font-weight: 700;
+}
+
+#esprit-sostenibilita {
+    height: 35px;
+    width: 150px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    bottom: 50px;
+    font-weight: 700;
+}
+
+#prezzo {
+    color: red;
+    font-weight: 700;
 }
