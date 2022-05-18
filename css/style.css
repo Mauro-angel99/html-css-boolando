@@ -80,6 +80,10 @@ main {
     padding: 150px 0;
 }
 
+.riga {
+    margin-bottom: 50px;
+}
+
 article {
     padding: 15px;
     font-size: large;
@@ -149,4 +153,44 @@ img {
 #prezzo {
     color: red;
     font-weight: 700;
+}
+
+
+/* hover */
+
+
+#img1:hover {
+    content: url(../img/1b.webp);
+}
+
+#img2:hover {
+    content: url(../img/2b.webp);
+}
+
+#img3:hover {
+    content: url(../img/3b.webp);
+}
+
+#img4:hover {
+    content: url(../img/4b.webp);
+}
+
+#img5:hover {
+    content: url(../img/5b.webp);
+}
+
+#img6:hover {
+    content: url(../img/6b.webp);
+}
+
+#cuore:hover {
+    color: red;
+}
+
+/* footer */
+
+#footer {
+    height: 130px;
+    width: 100%;
+    background-color: #1A1A1A;
 }
